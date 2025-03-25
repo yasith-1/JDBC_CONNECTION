@@ -8,7 +8,7 @@ public class MySQL {
 
     private static Connection connection;
 
-    public static void createConnection() throws Exception {
+    private static void createConnection() throws Exception {
 
         if (connection == null) {
 
